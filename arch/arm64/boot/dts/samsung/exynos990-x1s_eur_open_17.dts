@@ -2044,6 +2044,10 @@
 				android {
 					compatible = "android,firmware";
 					phandle = <0xb8>;
+
+					vbmeta {
+						status = "disabled";
+					};
 				};
 			};
 

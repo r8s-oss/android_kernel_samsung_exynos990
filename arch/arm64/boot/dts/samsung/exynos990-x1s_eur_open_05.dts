@@ -2072,6 +2072,10 @@
 				android {
 					compatible = "android,firmware";
 					phandle = <0xb9>;
+
+					vbmeta {
+						status = "disabled";
+					};
 				};
 			};
 
